@@ -4,12 +4,14 @@
 
 To develop a deep neural network for Malaria infected cell recognition and to analyze the performance.
 
-## Problem Statement and Dataset
+## Problem Statement 
 
-## Neural Network Model
 
-Include the neural network model diagram.
+The problem at hand is the automatic classification of red blood cell images into two categories: parasitized and uninfected. Malaria-infected red blood cells, known as parasitized cells, contain the Plasmodium parasite, while uninfected cells are healthy and free from the parasite. The goal is to build a convolutional neural network (CNN) model capable of accurately distinguishing between these two classes based on cell images.
 
+Traditional methods of malaria diagnosis involve manual inspection of blood smears by trained professionals, which can be time-consuming and error-prone. Automating this process using deep learning can significantly speed up diagnosis, reduce the workload on healthcare professionals, and improve the accuracy of detection.
+
+Our dataset comprises 27,558 cell images, evenly split between parasitized and uninfected cells. These images have been meticulously collected and annotated by medical experts, making them a reliable source for training and testing our deep neural network.
 ## DESIGN STEPS
 
 ### STEP 1:
@@ -45,6 +47,7 @@ Write your own steps
 
 ## PROGRAM
 Developed By: Kishore Kumar S
+
 Register No: 212221240023
 ```
 import os
