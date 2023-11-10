@@ -46,6 +46,7 @@ Write your own steps
 ## PROGRAM
 Developed By: Kishore Kumar S
 Register No: 212221240023
+```
 import os
 import pandas as pd
 import numpy as np
@@ -166,7 +167,7 @@ plt.title("Model prediction: "+("Parasitized" if pred  else "Un Infected")
 plt.axis("off")
 plt.imshow(img)
 plt.show()
-
+```
 
 ## OUTPUT
 
